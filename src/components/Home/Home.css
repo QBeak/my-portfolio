@@ -1,0 +1,175 @@
+.cards{
+    display: flex;
+    /* border: 2px solid black; */
+    /* margin-inline: 20px; */
+    background: rgba(22, 24, 26, 0.95);
+    position: relative;
+}
+.image-div{
+    /* border: 2px solid black; */
+    width: 22.6%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 50px;
+    align-items: flex-end;
+}
+
+.image-div img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+}
+.large-bold{
+    font-size: 3em;
+    font-weight: bold;
+    /* color: rgb(21, 177, 55); */
+    color: #0bceaf;
+    font-family: 'poppins', sans-serif;
+}
+.div-content{
+    width: 65%;
+    /* border: 2px solid black; */
+    text-align: left;
+    margin: 20px;
+}
+.logo-style{
+    width: 10em;
+    height: 4em;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo-style img{
+    width: 4em;
+    height:100%;
+    /* border: 1px solid black; */
+    
+}
+
+/* below is the styling for the skill bars */
+
+.mh-skills{
+background: rgba(22, 24, 26, 0.95);
+}
+
+.mh-skills .mh-professional-skills{
+    padding-right: 60px;
+    color: white;
+}
+
+.mh-skills .mh-professional-skills h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: "poppins", sans-serif;
+}
+
+.mh-professional-skills{
+    padding-left: 20%;
+    color: antiquewhite;
+}
+
+.mh-professional-skills h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: "poppins", sans-serif;
+}
+
+.mh-professional-progress li{
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mh-progress{
+    margin-bottom: 10px;
+    font: 900 1.14285/1;
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+
+.container .row{
+    width: 50%;
+}
+
+.candidatos{
+    position: relative;
+    margin-bottom: 15px;
+    font-family: 'poppins', sans-serif;
+}
+
+.parcial{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.info{
+    position: relative;
+    font-family: 'poppins', sans-serif;
+}
+
+.nome{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+    font-family: 'poppins', sans-serif;
+}
+
+.percentage-num{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.9;
+    font-family: 'poppins', sans-serif;
+}
+
+.progressBar{
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.percentagem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #0bceaf;
+    transition: 3s all;
+    animation-name: animationProgress;
+    font-family: 'poppins', sans-serif;
+}
+
+.percental{
+    animation-name:animationProgress;
+}
+
+@keyframes animationProgress{
+    from{
+        width: 0;
+    }
+}

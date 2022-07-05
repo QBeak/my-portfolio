@@ -1,0 +1,38 @@
+.All-Nav{
+    display: flex;
+    /* border: 2px solid black; */
+    position: relative;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color:rgb(12, 12, 12);
+    /* background: transparent; */
+    color: antiquewhite;
+}
+/* .All-Nav:before{
+    content: '';
+    position: absolute;
+    display: flex;
+    /* border: 2px solid black; */
+    /* justify-content: space-between;
+    margin-top: 20px; */
+    /* background-color:rgb(102, 109, 114); */
+    /* background: rgba(71, 58, 58, 0.5);
+    color: antiquewhite;
+}  */
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+.list-items{
+    list-style: none;
+    display: flex;
+    
+}
+.list-items li{
+    margin-inline: 20px;
+}
+.nav-header{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
